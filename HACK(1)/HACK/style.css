@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.house-image {
+    max-width: 4%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.buttonContainer {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buttonContainer {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.buttonDiv {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+p {
+    color: white;
+}
+
+.buttonContainer .box {
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: transparent;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.buttonTransition{
+    transition: all 0.5s ease;
+    background: white;
+    box-shadow: 0 0 0 2 #a892be;
+}
+
+.darkgreenbox h3 {
+    color: #f4d03f;
+}
+
+.darkbluebox h3 {
+    color: #2ecc71;
+}
+
+.purplebox h3 {
+    color: #8e44ad;
+}
+
+.pinkbox h3 {
+    color: #D4E157;
+}
+
+.greenbox h3 {
+    color: #3498db;
+}
+
+.bluebox h3{
+    color: #F57C00;
+}
+
+.darkgreenbox:hover{
+    background-color:  #f4d03f;
+}
+
+.darkbluebox:hover {
+    background-color: #2ecc71;
+}
+
+.purplebox:hover {
+    background-color: #8e44ad;
+}
+
+.pinkbox:hover {
+    background-color: #D4E157;
+}
+
+.greenbox:hover {
+    background-color: #3498db;
+}
+
+.bluebox:hover {
+    background-color: #F57C00;
+}
+
+.buttonTransition:hover h3{
+    color: white;
+}
+
+.buttonContainer .box .content {
+    position: relative;
+    z-index: 1;
+    transition: 1s;
+}
+
+.buttonContainer .box .content h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.buttonContainer .box .content p {
+    margin: 0;
+    padding: 0;
+}

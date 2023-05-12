@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <title>CarbonCare</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background: url("https://cdn.cundall.com/uploads/images/Blog/_large_image/101591/Reducing-our-personal-carbon-footprint.webp?v=1669306425") no-repeat center center fixed;
+                background-size: cover;
+                min-height: 100vh;
+                position: relative;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            .house-image {
+                max-width: 4%;
+                float: left;
+                margin-top: 4px;
+                margin-left: 4px;
+            }
+
+            section div {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 20px;
+            }
+
+            img {
+                margin: 10px;
+                margin-left: 20px;
+            }
+            section div img {
+                width: 40%;
+                margin-right: 20px;
+            }
+            section div div {
+                width: 60%;
+            }
+            header {
+                font-size: 20px;
+                text-align: center;
+                padding: 20px;
+                background-color: rgba(255, 255, 255, 0.8);
+                display: flex;
+                justify-content: left;
+                align-items: left;
+            }
+            section {
+                display: none;
+                padding: 20px;
+                color: white;
+            }
+            section:target {
+                display: block;
+            }
+            footer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                padding: 20px;
+                color: white;
+            }
+            .window-container {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                margin: 1px;
+            }
+            .window {
+                font-size: 30px;
+                text-align: center;
+                width: 30%;
+                height: 40px;
+                margin: 1%;
+                padding: 10px;
+                background-color: #accccf;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 style="color: rgb(8, 82, 8);">Organizations</h1>
+        </header>
+        <div>
+            <img src="https://www.rio.ai/hubfs/Beat-pollution.jpg" style="width: 400px; height: 250px;" alt="Description of the image"
+            onclick="window.open('https://www.worldenvironmentday.global/', '_blank')">
+            <div>
+                <h2 style="font-size: 24px; color:white">BeatPlasticPollution</h2>
+                <p style="font-size: 20px; color:white">100 Days to #BeatPlasticPollution is an initiative by the SEA circular project to create region-wide awareness on plastic pollution and public support for policies to change plastic value chain management towards less plastics wasted</p>
+            </div>
+        </div>
+        <div>
+            <img src="https://www.bmuv.de/typo3temp/assets/images/_c__UNEP__csm_unep_logo_560_27419259a2_3c777958495ae8eece95273f07841b31.jpg" style="width: 500px; height: 250px;" alt="Description of the image"
+            onclick="window.open('https://www.unep.org/annualreport/2022/', '_blank')">
+            <div>
+                <h2 style="font-size: 24px; color:white">UNEP</h2>
+                <p style="font-size: 20px; color:white">UNEP's mission is to provide leadership and encourage partnership in caring for the environment by inspiring, informing, and enabling nations and peoples to improve their quality of life without compromising that of future generations.</p>
+            </div>
+        </div> 
+        <div>
+            <img src="data:image/png;base64,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" style="width: 400px; height: 250px;" alt="Description of the image"
+            onclick="window.open('http://www.afedonline.org/en/about/background', '_blank')">
+            <div>
+                <h2 style="font-size: 24px; color:white">AFED</h2>
+                <p style="font-size: 20px; color:white">AFED’s mission is to promote environmental education and provide space for environmentalists to come together. They advocate for sustainable development, and influence planners, decision makers, businessmen, civil society, and media. AFED hosts an annual Health and the Environment in Arab Countries Conference and also publishes the AL-BIA WAL-TANMIA (Environment & Development) magazine.</p>
+            </div>
+        </div> 
+        <div>
+            <img src="data:image/png;base64,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" style="width: 400px; height: 250px;" alt="Description of the image"
+            onclick="window.open('https://www.theclimategroup.org/', '_blank')">
+            <div>
+                <h2 style="font-size: 24px; color:white">Climate Group</h2>
+                <p style="font-size: 20px; color:white">The Climate Group is working toward net-zero emissions by 2050 by holding organizations accountable for climate commitments they make. International business and government leaders come together to make commitments during Climate Week NYC. Then, Climate Group holds them accountable by sharing the actions they’ve taken and connecting them to other groups with similar objectives.</p>
+            </div>
+        </div>
+    </body>
+</html>

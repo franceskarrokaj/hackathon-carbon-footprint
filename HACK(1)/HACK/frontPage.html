@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <title>CARBONCARE</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background: url("https://cdn.cundall.com/uploads/images/Blog/_large_image/101591/Reducing-our-personal-carbon-footprint.webp?v=1669306425") no-repeat center center fixed;
+                background-size: cover;
+                min-height: 100vh;
+                position: relative;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            header {
+                font-size: 20px;
+                text-align: center;
+                padding: 35px;
+                background-color: rgba(255, 255, 255, 0.8);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            section {
+                display: none;
+                padding: 20px;
+                color: white;
+            }
+            section:target {
+                display: block;
+            }
+            footer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                padding: 20px;
+                color: white;
+            }
+            .window-container {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                margin: 1px;
+            }
+            .window {
+                font-size: 30px;
+                text-align: center;
+                text-decoration: none;
+                width: 30%;
+                height: 50px;
+                margin: 1%;
+                padding: 20px;
+                background-color: #accccf;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 style="color: rgb(8, 82, 8);">CARBONCARE</h1>
+        </header>
+        <div class="window-container">
+            <a class="window" href="home.html">About Us</a>
+            <a class="window" href="globalInfo.html">Global Information</a>
+            <a class="window" href="organitzationPage.html">Organizations</a>>
+        </div>
+        <section id="home">
+            <h2>Welcome to CarbonCare</h2>
+            <p>This is the homepage of CarbonCare.</p>
+        </section>
+        <section id="global-info">
+            <h2>Global Information</h2>
+        </section>
+        <section id="organizations">
+            <h2>Organizations</h2>
+            <p>Here are some organizations that are working to reduce carbon emissions.</p>
+        </section>
+        <footer>
+            <p>&copy; 2023 CarbonCare. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
